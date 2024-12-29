@@ -1,5 +1,11 @@
+html {
+  min-height: 100%;
+}
 body{
-  background-color: rgb(18, 48, 48);
+  min-height: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: linear-gradient(90deg, #003f5b, #005876, #00738c, #008e9e, #00abaa, #00c7b0, #00e3af, #41ffaa);
   margin: 0px;
 }
 .profile-pic{
@@ -26,26 +32,32 @@ img{
   border-radius: 50px;
 }
 .social-links-row{
-  background-color: rgb(62, 150, 150);
+  /* background-color: rgb(62, 150, 150); */
   text-align: center;
   margin: 30px;
   padding: 30;
   border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .links{ 
-  background-color: rgb(56, 182, 182);
+  /* background-color: rgb(56, 182, 182); */
   margin: 30px;
-  padding: 100px;
+  padding: 10px;
   border-radius: 50px;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
 .link{
   background-color: rgb(67, 214, 214);
   text-align: center;
-  margin: 10px;
+  margin: 30px;
   padding: 10px;
   border-radius: 50px;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
