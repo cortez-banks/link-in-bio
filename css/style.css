@@ -7,6 +7,7 @@ body{
   padding-bottom: 40px;
   background: linear-gradient(90deg, #003f5b, #005876, #00738c, #008e9e, #00abaa, #00c7b0, #00e3af, #41ffaa);
   margin: 0px;
+  font-family: "Raleway";
 }
 .profile-pic{
   text-align: center;
@@ -23,6 +24,7 @@ border-radius: 200px;
 
 img{
   width: 50px;
+  border-radius: 500px;
 }
 
 .name-row{
@@ -30,6 +32,7 @@ img{
   text-align: center;
   font-size: 30px;
   border-radius: 50px;
+  font-family: "Georgia";
 }
 .social-links-row{
   /* background-color: rgb(62, 150, 150); */
@@ -46,9 +49,10 @@ img{
   margin: 30px;
   padding: 10px;
   border-radius: 50px;
-  display: flex;
+
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 
 .link{
@@ -60,4 +64,10 @@ img{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border-radius: 1000px;
+  
+}
+a {
+  color: azure;
+  text-decoration: none;
 }
